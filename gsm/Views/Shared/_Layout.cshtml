@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Ganraj Share Market</title>
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div class="page">
+        <!--========================================================
+                                  HEADER
+        =========================================================-->
+        <header id="header">
+            <div id="stuck_container">
+                <div class="container">
+                    <div class="row">
+                        <div class="grid_12">
+                            <div class="brand put-left">
+                                <h1>
+                                    <a href="index.html">
+
+                                        <img src="images/logo5.gif" alt="Ganraj" />
+                                    </a>
+                                </h1>
+                            </div>
+                            <nav class="nav put-right">
+                                <ul class="sf-menu">
+                                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                                    <li>@Html.ActionLink("About", "About", "Home")</li>
+                                    <li>@Html.ActionLink("Courses", "Courses", "Home")</li>
+                                    <li>@Html.ActionLink("Blog", "Blog", "Home")</li>
+                                    <li>@Html.ActionLink("Feedback", "Feedback", "Home")</li>
+                                    <li>@Html.ActionLink("Contacts", "Contacts", "Home")</li>
+                                    <li>@Html.ActionLink("Register", "Register", "Home")</li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--========================================================
+                                  CONTENT
+        =========================================================-->
+        <section id="content"><div class="ic">Ganraj Share Market Share classes</div>
+            @RenderBody()
+        </section>
+        </div>
+        
+    <!--========================================================
+                              FOOTER
+    =========================================================-->
+        <footer id="footer" class="color_9">
+            <div class="container">
+                <div class="row">
+                    <div class="grid_12">
+                        <p class="info text_4 color_4">
+                            © <span id="copyright-year"></span> | <a href="#">Privacy Policy</a> <br />
+                            Website designed by <a href="" rel="nofollow">ganraj share market classes</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        @Scripts.Render("~/bundles/jquery")
+        @RenderSection("scripts", required: false)
+</body>
+</html>
