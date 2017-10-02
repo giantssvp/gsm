@@ -26,5 +26,33 @@ namespace gsm.Controllers
 
             return View();
         }
+
+        public ActionResult Courses()
+        {
+            ViewBag.Message = "Your course page.";
+
+            return View();
+        }
+
+        public ActionResult Blog()
+        {
+            ViewBag.Message = "Your Blog page.";
+
+            return View();
+        }
+
+        public ActionResult Feedback()
+        {
+            ViewBag.Message = "Your Blog page.";
+
+            return View();
+        }
+
+        public ActionResult Register()
+        {
+            ViewBag.Message = "Your Blog page.";
+
+            return View();
+        }
     }
 }
