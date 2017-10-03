@@ -1,0 +1,13 @@
+﻿use common_db;
+CREATE TABLE common_db.gsm_contact (
+    ID int NOT NULL AUTO_INCREMENT,
+    Name varchar(255),
+    Email_id varchar(255),
+    Comment_type varchar(255),
+    Subject varchar(255) NOT NULL,
+    Message varchar(2048) NOT NULL,
+    Date date NOT NULL,
+    Status boolean NOT NULL,
+    PRIMARY KEY (ID)
+);
+

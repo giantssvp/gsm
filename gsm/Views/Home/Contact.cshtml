@@ -41,7 +41,7 @@
                             NDA Road, Deshmukhwadi. <br />
                             Shivane,Pune-411023.
                             Contact No: +91 9657059591 <br />
-                            E-mail: <a href="#">ganrajclasses@gmail.com/info@ganrahclasses.com </a>
+                            E-mail: <a href="#">ganrajclasses@gmail.com/info@ganrajsharemarketclasses.com</a>
                         </p>
                     </address>
                 </div>
@@ -51,29 +51,40 @@
                     <h2 class="header_2 indent_2">
                         Contact Form
                     </h2>
-                    <form id="contact-form">
+                    <form id="contact-form" method="post" action=@Url.Action("submit_btn_contact","Home")>
                         <div class="contact-form-loader"></div>
                         <fieldset>
                             <div class="row">
-                                <div class="grid_2">
+                                <div class="grid_2_contact">
                                     <label class="name">
                                         <input type="text" name="name" placeholder="Name:" value="" data-constraints=""/>
                                         <span class="empty-message">*This field is required.</span>
                                         <span class="error-message">*This is not a valid name.</span>
                                     </label>
                                 </div>
-                                <div class="grid_2">
+                                <div class="grid_2_contact">
                                     <label class="email">
                                         <input type="text" name="email" placeholder="E-mail:" value="" data-constraints=""/>
                                         <span class="empty-message">*This field is required.</span>
                                         <span class="error-message">*This is not a valid email.</span>
                                     </label>
                                 </div>
-                                <div class="grid_2">
+                                <div class="grid_2_contact">
                                     <label class="phone">
                                         <input type="text" name="phone" placeholder="Phone:" value="" data-constraints="" />
                                         <span class="empty-message">*This field is required.</span>
                                         <span class="error-message">*This is not a valid phone.</span>
+                                    </label>
+                                </div>
+                                <div class="grid_2_contact">
+                                    <label class="phone">
+                                        <select name="requesttype" placeholder="Request Type:" value="" data-constraints="" >
+                                            <option value="Enquiry">Enquiry</option>
+                                            <option value="Feedback">Feedback</option>
+                                            <option value="Other">Other</option>                                           
+                                        </select>
+                                        <span class="empty-message">*This field is required.</span>
+                                        <span class="error-message">*This is not a valid request type.</span>
                                     </label>
                                 </div>
                             </div>
@@ -84,8 +95,8 @@
                                 <span class="error-message">*The message is too short.</span>
                             </label>
                             <div class="btn-wrap">
-                                <a class="btn_3" href="#" data-type="reset">clear</a>
-                                <a class="btn_3" href="#" data-type="submit">send</a>
+                                <input type="reset" class="btn_3" value="Clear" />
+                                <input type="submit" class="btn_3" value="Send" />
                             </div>
                         </fieldset>
                         <div class="modal fade response-message">
