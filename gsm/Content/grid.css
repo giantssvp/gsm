@@ -303,6 +303,10 @@ table {
   .grid_2 {
     width: 140px;
   }
+
+.grid_2_contact {
+    width: 300px;
+}
   .grid_1 {
     width: 60px;
   }
