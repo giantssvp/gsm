@@ -18,12 +18,15 @@ namespace gsm
                         "~/Scripts/jquery-migrate-1.2.1.js",
                         "~/Scripts/jquery.equalheights.js",
                         "~/Scripts/jquery.mobile.customized.min.js",
+                        "~/Scripts/modal.js",
+                        "~/Scripts/TMForm",
                         "~/Scripts/camera.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/grid.css",
                       "~/Content/camera.css",
                       "~/Content/bootstrap.min.css",
+                      "~/Content/contact-form.css",
                       "~/Content/style.css"));
         }
     }

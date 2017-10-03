@@ -1,4 +1,4 @@
-@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 @import "animate.css";
 @import url(http://fonts.googleapis.com/css?family=Marvel);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
@@ -297,25 +297,50 @@ img {
 /*============  Headers  =============*/
 .header_1 {
   text-align: center;
-  font: 600 48px/60px 'Open Sans', sans-serif;
+  font: 600 48px/20px 'Open Sans', sans-serif;
 }
+
 .header_1.indent_1 {
-  padding-bottom: 56px;
+  padding-bottom: 10px;
 }
-.header_1.indent_2 {
-  padding-bottom: 34px;
+    .header_1.indent_2 {
+        header_1 padding-bottom: 10px;
+    }
+
+.header_6 {
+    text-align: center;
+    font: 600 20px/30px 'Open Sans', sans-serif;
 }
-@media (min-width: 980px) and (max-width: 1199px) {
+/*
+    .header_6.indent_1 {
+        padding-bottom: 56px;
+    }
+
+    .header_6.indent_2 {
+        padding-bottom: 34px;
+    }
+    */
+@media (min-width: 980px) and (max-width: 1499px) {
   .header_1 {
     font-size: 40px;
-    line-height: 52px;
+    line-height: 22px;
   }
+
+    .header_6 {
+        font-size: 20px;
+        line-height: 32px;
+    }
 }
-@media (max-width: 767px) {
+@media (max-width: 1767px) {
   .header_1 {
     font-size: 36px;
-    line-height: 42px;
+    line-height: 22px;
   }
+
+    .header_6 {
+        font-size: 20px;
+        line-height: 32px;
+    }
 }
 .header_2 {
   font: 600 36px/30px 'Open Sans', sans-serif;
@@ -524,19 +549,19 @@ img {
   border-radius: 100px;
 }
 .box_1 .icon_1:before {
-  content: '%';
-  font: bold 48px/117px 'Arial', sans-serif;
+  content: '\f252';
+  font: 700 48px/117px 'FontAwesome';
 }
 .box_1 .icon_2:before {
   content: '\f012';
   font: 700 48px/117px 'FontAwesome';
 }
 .box_1 .icon_3:before {
-  content: '\f007';
+  content: '\f0c0';
   font: 700 48px/117px 'FontAwesome';
 }
 .box_1 .icon_4:before {
-  content: '\f0ad';
+  content: '\f0b1';
   font: 700 48px/117px 'FontAwesome';
 }
 .box_1 [class^='icon_'] + .text_2 {

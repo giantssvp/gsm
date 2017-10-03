@@ -1,17 +1,129 @@
 ﻿@{
     ViewBag.Title = "Contact";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
 
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
 
-<address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+<div class="container">
+    <div class="row wrap_11">
+        <div class="grid_12">
+            <h2 class="header_2 indent_4">Find Us</h2>
+        </div>
+    </div>
+</div>
+<div class="bg_1 wrap_17 wrap_19">
+    <div class="container">
+        <div class="row">
+            <div class="grid_12">
+                <iframe class="map"
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24214.807650104907!2d-73.94846048422478!3d40.65521573400813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1395650655094"
+                        style="border:0"></iframe>
+            </div>
+        </div>
+        <div class="row">
+            <div class="grid_6">
+                <div class="wrap_18">
+                    <h2 class="header_2 indent_5">
+                        Contact Info
+                    </h2>
+                    <address>
+                        <p class="text_7 color_6">
+                            Mr. Yuvraj Garud <br />
+                            Share Market Trainer 
+                        </p>
+                        <p class="text_8">
+                            If you have any questions about share market classes, please feel free to contat us. <br/>
+                            <br/>
+                            Address:<br />
+                            <br />
+                            Ganraj Share Market Classes <br />
+                            S/N 6/1A, 1st Floor, Ground Floor Kaka Halawai Sweets,
+                            <br />
+                            NDA Road, Deshmukhwadi. <br />
+                            Shivane,Pune-411023.
+                            Contact No: +91 9657059591 <br />
+                            E-mail: <a href="#">ganrajclasses@gmail.com/info@ganrahclasses.com </a>
+                        </p>
+                    </address>
+                </div>
+            </div>
+            <div class="grid_6">
+                <div class="wrap_18">
+                    <h2 class="header_2 indent_2">
+                        Contact Form
+                    </h2>
+                    <form id="contact-form">
+                        <div class="contact-form-loader"></div>
+                        <fieldset>
+                            <div class="row">
+                                <div class="grid_2">
+                                    <label class="name">
+                                        <input type="text" name="name" placeholder="Name:" value="" data-constraints=""/>
+                                        <span class="empty-message">*This field is required.</span>
+                                        <span class="error-message">*This is not a valid name.</span>
+                                    </label>
+                                </div>
+                                <div class="grid_2">
+                                    <label class="email">
+                                        <input type="text" name="email" placeholder="E-mail:" value="" data-constraints=""/>
+                                        <span class="empty-message">*This field is required.</span>
+                                        <span class="error-message">*This is not a valid email.</span>
+                                    </label>
+                                </div>
+                                <div class="grid_2">
+                                    <label class="phone">
+                                        <input type="text" name="phone" placeholder="Phone:" value="" data-constraints="" />
+                                        <span class="empty-message">*This field is required.</span>
+                                        <span class="error-message">*This is not a valid phone.</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <label class="message">
+                                <textarea name="message" placeholder="Message:"
+                                          data-constraints=""></textarea>
+                                <span class="empty-message">*This field is required.</span>
+                                <span class="error-message">*The message is too short.</span>
+                            </label>
+                            <div class="btn-wrap">
+                                <a class="btn_3" href="#" data-type="reset">clear</a>
+                                <a class="btn_3" href="#" data-type="submit">send</a>
+                            </div>
+                        </fieldset>
+                        <div class="modal fade response-message">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal"
+                                                aria-hidden="true">
+                                            &times;
+                                        </button>
+                                        <h4 class="modal-title">Modal title</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        You message has been sent! We will be in touch soon.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row wrap_9 wrap_4 wrap_10">
+        <div class="grid_12">
+            <div class="header_1 wrap_3 color_3">
+                Get in Touch
+            </div>
+            <div class="box_3">
+                <ul class="list_1">
+                    <li><a class="fa fa-twitter" href="#"></a></li>
+                    <li><a class="fa fa-facebook" href="#"></a></li>
+                    <li><a class="fa fa-google-plus" href="#"></a></li>
+                    <li><a class="fa fa-pinterest" href="#"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
