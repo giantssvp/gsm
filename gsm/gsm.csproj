@@ -200,6 +200,7 @@
     <Content Include="images\logo.png" />
     <Content Include="images\preloader.gif" />
     <Content Include="images\select.png" />
+    <Content Include="images\slide1.png" />
     <Content Include="Scripts\camera.js" />
     <Content Include="Scripts\device.min.js" />
     <Content Include="Scripts\html5shiv.js" />
