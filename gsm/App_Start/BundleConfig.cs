@@ -27,6 +27,7 @@ namespace gsm
                       "~/Content/camera.css",
                       "~/Content/bootstrap.min.css",
                       "~/Content/contact-form.css",
+                      "~/Content/style_feedback.css",
                       "~/Content/style.css"));
         }
     }

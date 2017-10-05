@@ -159,6 +159,7 @@
     <Content Include="Content\isotope.css" />
     <Content Include="Content\owl.carousel.css" />
     <Content Include="Content\style.css" />
+    <Content Include="Content\style_feedback.css" />
     <Content Include="Content\touchTouch.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
