@@ -6,10 +6,6 @@
 			background-repeat:repeat-x;
 	}
 	
- #page{
-      
- 
- }	
  
  #header1{
     width:960px;
@@ -846,20 +842,20 @@
 	 width:282px;
 	 
 	}
-	
-	#body1 #content #sidebar .section .aside div div ul li a{
-	  text-decoration:none;
-	  display:inline-block;
-	  color:#7f7154;
-	  font-size:14px;
-	  margin:0 0 0 10px;
-	  font-family:"Myriad Pro";
-	  width:210px;
-	  /*
+
+        #body1 #content #sidebar .section .aside div div ul li a {
+            text-decoration: none;
+            display: inline-block;
+            color: #7f7154;
+            font-size: 14px;
+            margin: 0 0 0 10px;
+            font-family: "Myriad Pro";
+            width: 210px;
+            /*float: left;
+            
 	  _width:200px;
 	  */
-	  float:left;
-	}
+        }
 	
 	#body1 #content #sidebar .section .aside div div ul li a:hover{
 	  color:#e4a217;
