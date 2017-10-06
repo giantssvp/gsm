@@ -6,9 +6,9 @@
                     Main layout styles
 =========================================================*/
 body {
-  background: #129894;
-  color: #363535;
-  font: 300 18px/36px 'Open Sans', sans-serif;
+    background: #129894;
+    color: #363535;
+    font: 300 18px/36px 'Open Sans', sans-serif;
 }
 .ic {
   border:0;
