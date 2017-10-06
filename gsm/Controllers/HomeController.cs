@@ -11,19 +11,19 @@ namespace gsm.Controllers
 {
     public class HomeController : Controller
     {
-        /*
+        
         public static string mailServer     =   "relay-hosting.secureserver.net";
-        public static string mailFrom       =   "admin@mokshhealing.com.au";
-        public static string mailTo         =   "admin@mokshhealing.com.au";
-        public static string mailBCC        =   "admin@mokshhealing.com.au";
-        public static string mailPassword   =   "Mokshhealing@123";  
-        */
+        public static string mailFrom       =   "info@ganrajsharemarket.com";
+        public static string mailTo         = "info@ganrajsharemarket.com";
+        //public static string mailBCC        =   "admin@mokshhealing.com.au";
+        public static string mailPassword   =   "Ganraj@123";  
+        /*
         public static string mailServer = "smtp.gmail.com";
         public static string mailFrom = "abcdtes26@gmail.com";
         public static string mailTo = "abcdtes26@gmail.com";
         public static string mailBCC = "abcdtes26@gmail.com";
         public static string mailPassword = "9921642540";
-
+        */
         public ActionResult Index()
         {
             return View();
@@ -59,8 +59,11 @@ namespace gsm.Controllers
 
         public ActionResult Feedback()
         {
-            ViewBag.Message = "Your Blog page.";
-
+            var obj = new db_connect();
+            List<string>[] list = new List<string>[3];
+            list = obj.testimony_show(0);
+            ViewBag.list = list;
+            ViewBag.total = list[0].Count();
             return View();
         }
 
@@ -101,9 +104,9 @@ namespace gsm.Controllers
                
 
                 mail.Body = htmlBody;
-                SmtpServer.Port = 587;
+                //SmtpServer.Port = 587;
                 SmtpServer.Credentials = new System.Net.NetworkCredential(mailFrom, mailPassword);
-                SmtpServer.EnableSsl = true;
+                //SmtpServer.EnableSsl = true;
 
                 SmtpServer.Send(mail);
                 TempData["AlertMessage"] = "Your details saved successfully, We will get back to you shortly.";
