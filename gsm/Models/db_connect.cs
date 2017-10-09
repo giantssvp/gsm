@@ -16,7 +16,7 @@ namespace gsm.Models
         private bool OpenConnection()
         {
             string connetionString = null;
-            connetionString = "server=localhost;database=common_db;uid=root;pwd=password;Allow User Variables=True;";
+            connetionString = "server=182.50.133.77;database=common_db;uid=commonadmin;pwd=Common@123;Allow User Variables=True;";
             connection = new MySqlConnection(connetionString);
             try
             {

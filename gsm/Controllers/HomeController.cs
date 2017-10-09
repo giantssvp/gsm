@@ -14,8 +14,7 @@ namespace gsm.Controllers
         
         public static string mailServer     =   "relay-hosting.secureserver.net";
         public static string mailFrom       =   "info@ganrajsharemarket.com";
-        public static string mailTo         = "info@ganrajsharemarket.com";
-        //public static string mailBCC        =   "admin@mokshhealing.com.au";
+        public static string mailTo         =   "info@ganrajsharemarket.com";
         public static string mailPassword   =   "Ganraj@123";  
         /*
         public static string mailServer = "smtp.gmail.com";
