@@ -127,8 +127,8 @@ img {
                     HEADER styles
 =========================================================*/
 #header {
-  position: relative;
-  background: #129894;
+    position: relative;
+    background: #660033;
 }
 @media (max-width: 1199px) {
   #header {
@@ -174,7 +174,7 @@ img {
   position: relative;
   display: inline-block;
   padding: 23px 10px 21px;
-  color: #000000;
+  color: #ffffff;
 }
 .sf-menu > li.sfHover > a,
 .sf-menu > li.current > a,
