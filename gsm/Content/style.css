@@ -754,12 +754,12 @@ img {
 .list_1 li a.fa-google-plus:before {
   padding-left: 6px;
 }
-.list_1 li a.fa-pinterest {
+.list_1 li a.fa-linkedin {
   line-height: 50px;
   font-size: 30px;
 }
-.list_1 li a.fa-pinterest:before {
-  padding-left: 1px;
+.list_1 li a.fa-linkedin:before {
+    padding-left: 1px;
 }
 .list_2 li {
   position: relative;
