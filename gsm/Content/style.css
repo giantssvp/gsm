@@ -6,7 +6,7 @@
                     Main layout styles
 =========================================================*/
 body {
-    background: #129894;
+    background: #660033;
     color: #363535;
     font: 300 18px/36px 'Open Sans', sans-serif;
 }
@@ -91,7 +91,7 @@ img {
   color: inherit;
 }
 .color_4 {
-  color: #a0d6d4;
+  color: #ffffff;
 }
 .color_4 a {
   color: inherit;
