@@ -6,7 +6,7 @@
                     Main layout styles
 =========================================================*/
 body {
-    background: #129894;
+    background: #660033;
     color: #363535;
     font: 300 18px/36px 'Open Sans', sans-serif;
 }
@@ -91,7 +91,7 @@ img {
   color: inherit;
 }
 .color_4 {
-  color: #a0d6d4;
+  color: #ffffff;
 }
 .color_4 a {
   color: inherit;
@@ -127,8 +127,10 @@ img {
                     HEADER styles
 =========================================================*/
 #header {
-  position: relative;
-  background: #129894;
+    position: relative;
+    #background: #129894;
+    #background: #0033cc;
+    background: #660033;
 }
 @media (max-width: 1199px) {
   #header {
@@ -174,7 +176,8 @@ img {
   position: relative;
   display: inline-block;
   padding: 23px 10px 21px;
-  color: #000000;
+  #color: #000000;
+  color: #ffffff;
 }
 .sf-menu > li.sfHover > a,
 .sf-menu > li.current > a,
@@ -913,6 +916,7 @@ a[data-type='lightbox']:hover img {
   outline: none;
   text-decoration: none;
   color: #129894;
+  
 }
 #toTop:active {
   background: transparent;
