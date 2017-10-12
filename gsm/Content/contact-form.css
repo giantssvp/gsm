@@ -75,8 +75,8 @@
   -webkit-appearance: none;
 }
 
-#contact-form select {
-    width: 165%;
+#contact-form input[type='email'] {
+    width: 100%;
     background-color: #ffffff;
     border-radius: 0;
     line-height: 19px;
@@ -86,7 +86,7 @@
     padding: 6px 27px 6px;
     color: #363535;
     outline: none;
-    height: 35px;
+    height: 31px;
     border: 1px solid #ababa9;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
